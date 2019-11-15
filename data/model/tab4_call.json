@@ -1,0 +1,99 @@
+{
+  "request":"67460e74-02e3-11e8-b443-00163e990bdb",
+  "caller": "business_ottimizzatore",
+  "endDate": 20191023,
+  "plantName": "PIANEZZA",
+  "prices": {
+    "1_11": 45,
+    "1_02": 20,
+    "1_05": 35,
+    "1_10": 720
+  },
+  "lineSettings": [
+    [
+      "pressaL1",
+      "min",
+      1
+    ],
+    [
+      "pressaL1",
+      "max",
+      1
+    ],
+    [
+      "cabinaL1",
+      "min",
+      0
+    ],
+    [
+      "cabinaL1",
+      "max",
+      4
+    ],
+    [
+      "mezziL1",
+      "min",
+      1
+    ],
+    [
+      "mezziL1",
+      "max",
+      2
+    ],
+    [
+      "pressaL2",
+      "min",
+      1
+    ],
+    [
+      "pressaL2",
+      "max",
+      1
+    ],
+    [
+      "cabinaL2",
+      "min",
+      0
+    ],
+    [
+      "cabinaL2",
+      "max",
+      3
+    ],
+    [
+      "mezziL2",
+      "min",
+      1
+    ],
+    [
+      "mezziL2",
+      "max",
+      3
+    ]
+  ],
+  "modelParams": {
+    "disposalCost": -133,
+    "invariantCost": 10.1,
+    "internalVariableCost": 16.38,
+    "externalVariableCost": 17.34,
+    "deltaCMT102": 20,
+    "deltaCMT105": 25,
+    "deltaCMT111": 25,
+    "deltaCMTSoftMix": 5,
+    "paperboardSelectorEfficiency": 0.95,
+    "scrapRatio": 0.03,
+    "paperboardRatio": 0.34,
+    "authorizedPlantCapacity": 2264,
+    "capacityThreshold": 1.05,
+    "productivityThreshold": 1.15,
+    "flow102": 6,
+    "flow111": 3,
+    "maxProductivity": 30.74,
+    "totalShiftHours": 8,
+    "cabinCostMode": "aggiunta",
+    "cabinWorkerSource": "interna",
+    "maxCabinWorkers": 4,
+    "forecastProductionFlow": false,
+    "forecastAverageWeights": false
+  }
+}

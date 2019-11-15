@@ -1,0 +1,37 @@
+{
+  "request": "67460e74-02e3-11e8-b443-00163e990bdb",
+  "graph": {
+    "links": [
+    {"source":"Giacenze da lavorare","target":"Selezionatore","tons":"1.4"},
+    {"source":"Selezionatore","target":"Pressa 1","tons":"1.4"},
+    {"source":"Pressa 1","target":"Uscita prevista","tons":"1.4"},
+    {"source":"Giacenze da lavorare","target":"Pressa 2","tons":"1.4"},
+    {"source":"Pressa 2","target":"Giacenze MPS 2","tons":"1.4"},
+    {"source":"Pressa 2","target":"Uscita prevista","tons":"1.4"},
+    {"source":"Giacenze da lavorare","target":"Selezionatore a terra","tons":"1.4"},
+    {"source":"Selezionatore a terra","target":"Giacenze smaltimento","tons":"1.4"},
+    {"source":"Ingresso previsto","target":"Pressa 2","tons":"1.4"},
+    {"source":"Ingresso previsto","target":"Selezionatore a terra","tons":"1.4"},
+    {"source":"Selezionatore a terra","target":"Giacenze smaltimento","tons":"1.4"},
+    {"source":"Pressa 2","target":"Selezionatore a terra","tons":"1.4"}
+    ] ,
+    "nodes": [
+        {"name":"NodoOrfano","alert" : "0" },
+        {"name":"Giacenze da lavorare","alert" : "0", "setup": {
+                                                        "0": "share di configurazione 0 addetti 0%",
+                                                        "1": "share di configurazione 1 addetti 80%",
+                                                        "4": "share di configurazione 4 addetti 20%"
+      }},
+    {"name":"Giacenze MPS","alert" : "1"},
+    {"name":"Ingresso previsto","alert" : "2"},
+    {"name":"Selezionatore"},
+    {"name":"Pressa 1"},
+    {"name":"Pressa 2"},
+    {"name":"Selezionatore a terra"},
+    {"name":"Giacenze smaltimento"},
+    {"name":"Giacenze da lavorare 2","alert" : "2"},
+    {"name":"Giacenze MPS 2"},
+    {"name":"Uscita prevista"}
+    ] }     
+  
+}

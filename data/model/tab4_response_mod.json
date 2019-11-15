@@ -1,0 +1,51 @@
+{
+  "request": "67460e74-02e3-11e8-b443-00163e990bdb",
+  "table": 
+  [
+    {
+      "head" : {"layer" : "FINALI", "direzione" : "MPS", "mps_rifiuto" : "TOTALE"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 1253.15},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 1183.95614},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 1283.2},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 1180.20614},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 1357.15},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 1248.3077594658491}
+      ]
+    },
+    {
+      "head" : {"layer" : "FINALI", "direzione" : "RIFIUTI", "mps_rifiuto" : "TOTALE"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 186.36},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 265.31386000000003},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 185.26},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 214.91386000000003},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 184.16000000000003},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 150.82118338337494}
+      ]
+    },
+    {
+      "head" : {"layer" : "INGRESSI", "direzione" : "LINEA_1", "mps_rifiuto" : "congiunta_1A"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 76.54},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 53.82},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 65.46},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 53.82},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 62.96},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 40.06}
+      ]
+    },
+    {
+      "head" : {"layer" : "INIZIALI", "direzione" : "MPS", "mps_rifiuto" : "1_02"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 817.5},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 817.5},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 735.0},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 735.0},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 708.0},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 708.0}
+      ]
+    }
+  ],
+  "tableFile": "link_to_S3_file_tab4"
+}

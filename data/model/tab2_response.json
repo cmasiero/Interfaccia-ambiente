@@ -1,0 +1,340 @@
+{
+  "request": "67460e74-02e3-11e8-b443-00163e990bdb",
+  "graph": {
+    "nodeDict": {
+      "GIACENZA INIZIALE RIFIUTI: ": {
+        "alert": 0
+      },
+      "RIFIUTI IN INGRESSO: ": {},
+      "CONGIUNTA 20.01.01 1A: ": {},
+      "CONGIUNTA 20.01.01 2B: ": {},
+      "SELETTIVA 15.01.01 1A: ": {},
+      "SELETTIVA 15.01.01 2B: ": {},
+      "CARTONE KSK: ": {},
+      "CARTONE 100: ": {},
+      "ALTRI RIFIUTI: ": {},
+      "LINEA DECARTONATORE: ": {},
+      "LINEA SELEZIONE: ": {
+        "setup": {
+          "0": 0.0,
+          "1": 0.8,
+          "4": 0.2
+        }
+      },
+      "LINEA PRESSATURA: ": {},
+      "RIFIUTI IN USCITA: ": {},
+      "GIACENZA FINALE RIFIUTI: ": {
+        "alert": 0
+      },
+      "1.02 LAVORATA: ": {},
+      "1.05 LAVORATO: ": {},
+      "1.11 LAVORATO: ": {},
+      "SOFTMIX LAVORATO: ": {},
+      "SCARTI SELEZIONE: ": {},
+      "1.02 PRESSATA: ": {},
+      "1.05 PRESSATO: ": {},
+      "1.11 PRESSATO: ": {},
+      "SOFTMIX PRESSATO: ": {},
+      "ALTRI RIFIUTI PRESSATI: ": {},
+      "CARTONE KSK PRESSATO: ": {},
+      "GIACENZA INIZIALE MPS: ": {
+        "alert": 1
+      },
+      "GIACENZA FINALE MPS: ": {
+        "alert": 2
+      },
+      "MPS IN USCITA: ": {},
+      "DISCARICA: ": {},
+      "LIBERO MERCATO: ": {},
+      "CARTIERA CONTO COMIECO: ": {},
+      "1.05 CONTO COMIECO: ": {},
+      "1.02 CONTO COMIECO: ": {},
+      "1.02 LIBERO MERCATO: ": {},
+      "1.05 LIBERO MERCATO: ": {},
+      "1.11 LIBERO MERCATO: ": {},
+      "SOFTMIX LIBERO MERCATO: ": {},
+      "CARTONE KSK LIBERO MERCATO: ": {},
+      "OPZIONE SELEZIONE 1: ": {},
+      "RIFIUTI DA PRESSARE: ": {},
+      "RIFIUTI NON LAVORATI: ": {},
+      "MPS PRESSATI: ": {},
+      "1.02 GIACENZA INIZIALE: ": {},
+      "1.05 GIACENZA INIZIALE: ": {},
+      "1.11 GIACENZA INIZIALE: ": {},
+      "SOFTMIX GIACENZA INIZIALE: ": {},
+      "CARTONE KSK GIACENZA INIZIALE: ": {}
+    },
+    "edgeDict": {
+      "GIACENZA INIZIALE RIFIUTI: **CONGIUNTA 20.01.01 1A: ": {
+        "tons": 98.1
+      },
+      "GIACENZA INIZIALE RIFIUTI: **CONGIUNTA 20.01.01 2B: ": {
+        "tons": 0
+      },
+      "GIACENZA INIZIALE RIFIUTI: **SELETTIVA 15.01.01 1A: ": {
+        "tons": 0
+      },
+      "GIACENZA INIZIALE RIFIUTI: **SELETTIVA 15.01.01 2B: ": {
+        "tons": 0
+      },
+      "GIACENZA INIZIALE RIFIUTI: **CARTONE KSK: ": {
+        "tons": 0
+      },
+      "GIACENZA INIZIALE RIFIUTI: **CARTONE 100: ": {
+        "tons": 0
+      },
+      "GIACENZA INIZIALE RIFIUTI: **ALTRI RIFIUTI: ": {
+        "tons": 233.7
+      },
+      "RIFIUTI IN INGRESSO: **CONGIUNTA 20.01.01 1A: ": {
+        "tons": 53.82
+      },
+      "RIFIUTI IN INGRESSO: **CONGIUNTA 20.01.01 2B: ": {
+        "tons": 63.22
+      },
+      "RIFIUTI IN INGRESSO: **SELETTIVA 15.01.01 1A: ": {
+        "tons": 4.22
+      },
+      "RIFIUTI IN INGRESSO: **SELETTIVA 15.01.01 2B: ": {
+        "tons": 35.67
+      },
+      "RIFIUTI IN INGRESSO: **CARTONE KSK: ": {
+        "tons": 0
+      },
+      "RIFIUTI IN INGRESSO: **CARTONE 100: ": {
+        "tons": 0
+      },
+      "RIFIUTI IN INGRESSO: **ALTRI RIFIUTI: ": {
+        "tons": 49.3
+      },
+      "CONGIUNTA 20.01.01 1A: **LINEA DECARTONATORE: ": {
+        "tons": 151.9
+      },
+      "LINEA DECARTONATORE: **OPZIONE SELEZIONE 1: ": {
+        "tons": 51.65
+      },
+      "OPZIONE SELEZIONE 1: **LINEA PRESSATURA: ": {
+        "tons": 51.65
+      },
+      "LINEA DECARTONATORE: **LINEA SELEZIONE: ": {
+        "tons": 100.25
+      },
+      "LINEA SELEZIONE: **1.02 LAVORATA: ": {
+        "tons": 46.5
+      },
+      "LINEA SELEZIONE: **1.05 LAVORATO: ": {
+        "tons": 23.75
+      },
+      "LINEA SELEZIONE: **1.11 LAVORATO: ": {
+        "tons": 0
+      },
+      "LINEA SELEZIONE: **SOFTMIX LAVORATO: ": {
+        "tons": 30
+      },
+      "1.02 LAVORATA: **LINEA PRESSATURA: ": {
+        "tons": 46.5
+      },
+      "1.05 LAVORATO: **LINEA PRESSATURA: ": {
+        "tons": 23.75
+      },
+      "1.11 LAVORATO: **LINEA PRESSATURA: ": {
+        "tons": 0
+      },
+      "SOFTMIX LAVORATO: **LINEA PRESSATURA: ": {
+        "tons": 30
+      },
+      "CONGIUNTA 20.01.01 2B: **RIFIUTI DA PRESSARE: ": {
+        "tons": 0
+      },
+      "SELETTIVA 15.01.01 1A: **RIFIUTI DA PRESSARE: ": {
+        "tons": 0
+      },
+      "SELETTIVA 15.01.01 2B: **RIFIUTI DA PRESSARE: ": {
+        "tons": 0
+      },
+      "CARTONE KSK: **RIFIUTI DA PRESSARE: ": {
+        "tons": 0
+      },
+      "CARTONE 100: **RIFIUTI DA PRESSARE: ": {
+        "tons": 0
+      },
+      "ALTRI RIFIUTI: **RIFIUTI DA PRESSARE: ": {
+        "tons": 0
+      },
+      "RIFIUTI DA PRESSARE: **LINEA PRESSATURA: ": {
+        "tons": 0
+      },
+      "ALTRI RIFIUTI: **RIFIUTI IN USCITA: ": {
+        "tons": 65.73
+      },
+      "LINEA SELEZIONE: **SCARTI SELEZIONE: ": {
+        "tons": 0
+      },
+      "SCARTI SELEZIONE: **RIFIUTI IN USCITA: ": {
+        "tons": 0
+      },
+      "CONGIUNTA 20.01.01 1A: **RIFIUTI NON LAVORATI: ": {
+        "tons": 0
+      },
+      "CONGIUNTA 20.01.01 2B: **RIFIUTI NON LAVORATI: ": {
+        "tons": 63.22
+      },
+      "SELETTIVA 15.01.01 1A: **RIFIUTI NON LAVORATI: ": {
+        "tons": 4.22
+      },
+      "SELETTIVA 15.01.01 2B: **RIFIUTI NON LAVORATI: ": {
+        "tons": 35.67
+      },
+      "CARTONE KSK: **RIFIUTI NON LAVORATI: ": {
+        "tons": 0
+      },
+      "CARTONE 100: **RIFIUTI NON LAVORATI: ": {
+        "tons": 0
+      },
+      "ALTRI RIFIUTI: **RIFIUTI NON LAVORATI: ": {
+        "tons": 217.46
+      },
+      "RIFIUTI NON LAVORATI: **GIACENZA FINALE RIFIUTI: ": {
+        "tons": 320.57
+      },
+      "RIFIUTI NON LAVORATI: **RIFIUTI IN USCITA: ": {
+        "tons": 0
+      },
+      "ALTRI RIFIUTI PRESSATI: **GIACENZA FINALE RIFIUTI: ": {
+        "tons": 0
+      },
+      "SCARTI SELEZIONE: **GIACENZA FINALE RIFIUTI: ": {
+        "tons": 0
+      },
+      "LINEA PRESSATURA: **MPS PRESSATI: ": {
+        "tons": 152
+      },
+      "MPS PRESSATI: **1.02 PRESSATA: ": {
+        "tons": 1042.5
+      },
+      "MPS PRESSATI: **1.05 PRESSATO: ": {
+        "tons": 262.38
+      },
+      "MPS PRESSATI: **1.11 PRESSATO: ": {
+        "tons": 24
+      },
+      "MPS PRESSATI: **SOFTMIX PRESSATO: ": {
+        "tons": 234
+      },
+      "MPS PRESSATI: **CARTONE KSK PRESSATO: ": {
+        "tons": 43.9
+      },
+      "LINEA PRESSATURA: **ALTRI RIFIUTI PRESSATI: ": {
+        "tons": 0
+      },
+      "ALTRI RIFIUTI PRESSATI: **RIFIUTI IN USCITA: ": {
+        "tons": 0
+      },
+      "GIACENZA INIZIALE MPS: **1.02 GIACENZA INIZIALE: ": {
+        "tons": 993
+      },
+      "GIACENZA INIZIALE MPS: **1.05 GIACENZA INIZIALE: ": {
+        "tons": 179.8
+      },
+      "GIACENZA INIZIALE MPS: **1.11 GIACENZA INIZIALE: ": {
+        "tons": 24
+      },
+      "GIACENZA INIZIALE MPS: **SOFTMIX GIACENZA INIZIALE: ": {
+        "tons": 204
+      },
+      "GIACENZA INIZIALE MPS: **CARTONE KSK GIACENZA INIZIALE: ": {
+        "tons": 44.95
+      },
+      "1.02 GIACENZA INIZIALE: **MPS PRESSATI: ": {
+        "tons": 993
+      },
+      "1.05 GIACENZA INIZIALE: **MPS PRESSATI: ": {
+        "tons": 179.8
+      },
+      "1.11 GIACENZA INIZIALE: **MPS PRESSATI: ": {
+        "tons": 24
+      },
+      "SOFTMIX GIACENZA INIZIALE: **MPS PRESSATI: ": {
+        "tons": 204
+      },
+      "CARTONE KSK GIACENZA INIZIALE: **MPS PRESSATI: ": {
+        "tons": 44.95
+      },
+      "1.02 PRESSATA: **GIACENZA FINALE MPS: ": {
+        "tons": 952.5
+      },
+      "1.05 PRESSATO: **GIACENZA FINALE MPS: ": {
+        "tons": 145
+      },
+      "1.11 PRESSATO: **GIACENZA FINALE MPS: ": {
+        "tons": 24
+      },
+      "SOFTMIX PRESSATO: **GIACENZA FINALE MPS: ": {
+        "tons": 234
+      },
+      "CARTONE KSK PRESSATO: **GIACENZA FINALE MPS: ": {
+        "tons": 14.5
+      },
+      "1.02 PRESSATA: **MPS IN USCITA: ": {
+        "tons": 90
+      },
+      "1.05 PRESSATO: **MPS IN USCITA: ": {
+        "tons": 117.38
+      },
+      "1.11 PRESSATO: **MPS IN USCITA: ": {
+        "tons": 0
+      },
+      "SOFTMIX PRESSATO: **MPS IN USCITA: ": {
+        "tons": 0
+      },
+      "CARTONE KSK PRESSATO: **MPS IN USCITA: ": {
+        "tons": 29.4
+      },
+      "RIFIUTI IN USCITA: **DISCARICA: ": {
+        "tons": 65.73
+      },
+      "MPS IN USCITA: **1.05 CONTO COMIECO: ": {
+        "tons": 117.38
+      },
+      "MPS IN USCITA: **1.02 CONTO COMIECO: ": {
+        "tons": 0
+      },
+      "1.05 CONTO COMIECO: **CARTIERA CONTO COMIECO: ": {
+        "tons": 117.38
+      },
+      "1.02 CONTO COMIECO: **CARTIERA CONTO COMIECO: ": {
+        "tons": 0
+      },
+      "MPS IN USCITA: **1.02 LIBERO MERCATO: ": {
+        "tons": 90
+      },
+      "MPS IN USCITA: **1.05 LIBERO MERCATO: ": {
+        "tons": 0
+      },
+      "MPS IN USCITA: **1.11 LIBERO MERCATO: ": {
+        "tons": 0
+      },
+      "MPS IN USCITA: **SOFTMIX LIBERO MERCATO: ": {
+        "tons": 0
+      },
+      "MPS IN USCITA: **CARTONE KSK LIBERO MERCATO: ": {
+        "tons": 29.4
+      },
+      "1.02 LIBERO MERCATO: **LIBERO MERCATO: ": {
+        "tons": 90
+      },
+      "1.05 LIBERO MERCATO: **LIBERO MERCATO: ": {
+        "tons": 0
+      },
+      "1.11 LIBERO MERCATO: **LIBERO MERCATO: ": {
+        "tons": 0
+      },
+      "SOFTMIX LIBERO MERCATO: **LIBERO MERCATO: ": {
+        "tons": 0
+      },
+      "CARTONE KSK LIBERO MERCATO: **LIBERO MERCATO: ": {
+        "tons": 29.4
+      }
+    }
+  }
+}

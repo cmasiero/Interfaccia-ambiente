@@ -1,0 +1,84 @@
+{
+  "request": "67460e74-02e3-11e8-b443-00163e990bdb",
+  "table": 
+  [
+    {
+      "head" : {"layer" : "FINALI", "direzione" : "MPS", "mps_rifiuto" : "TOTALE"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 1253.15},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 1183.95614},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 1283.2},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 1180.20614},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 1357.15},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 1248.3077594658491}
+      ]
+    },
+    {
+      "head" : {"layer" : "FINALI", "direzione" : "RIFIUTI", "mps_rifiuto" : "TOTALE"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 186.36},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 265.31386000000003},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 185.26},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 214.91386000000003},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 184.16000000000003},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 150.82118338337494}
+      ]
+    },
+    {
+      "head" : {"layer" : "INGRESSI", "direzione" : "LINEA_1", "mps_rifiuto" : "congiunta_1A"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 76.54},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 53.82},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 65.46},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 53.82},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 62.96},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 40.06}
+      ]
+    },
+    {
+      "head" : {"layer" : "INIZIALI", "direzione" : "MPS", "mps_rifiuto" : "1_02"},
+      "value" : [
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "CONSUNTIVO", "qty" : 817.5},
+        { "unit" : "TONNELLATE", "data" : "20190918", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 817.5},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "CONSUNTIVO", "qty" : 735.0},
+        { "unit" : "TONNELLATE", "data" : "20190919", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 735.0},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "CONSUNTIVO", "qty" : 708.0},
+        { "unit" : "TONNELLATE", "data" : "20190920", "tipo" : "PREVISTO_OTTIMIZZATO", "qty" : 708.0}
+      ]
+    }
+  ],
+  "graph": {
+    "links": [
+    {"source":"Giacenze da lavorare","target":"Selezionatore","tons":"1.4"},
+    {"source":"Selezionatore","target":"Pressa 1","tons":"1.4"},
+    {"source":"Pressa 1","target":"Uscita prevista","tons":"1.4"},
+    {"source":"Giacenze da lavorare","target":"Pressa 2","tons":"1.4"},
+    {"source":"Pressa 2","target":"Giacenze MPS 2","tons":"1.4"},
+    {"source":"Pressa 2","target":"Uscita prevista","tons":"1.4"},
+    {"source":"Giacenze da lavorare","target":"Selezionatore a terra","tons":"1.4"},
+    {"source":"Selezionatore a terra","target":"Giacenze smaltimento","tons":"1.4"},
+    {"source":"Ingresso previsto","target":"Pressa 2","tons":"1.4"},
+    {"source":"Ingresso previsto","target":"Selezionatore a terra","tons":"1.4"},
+    {"source":"Selezionatore a terra","target":"Giacenze smaltimento","tons":"1.4"},
+    {"source":"Pressa 2","target":"Selezionatore a terra","tons":"1.4"}
+    ] ,
+    "nodes": [
+        {"name":"NodoOrfano","alert" : "0" },
+        {"name":"Giacenze da lavorare","alert" : "0", "setup": {
+                                                        "0": "share di configurazione 0 addetti 0%",
+                                                        "1": "share di configurazione 1 addetti 80%",
+                                                        "4": "share di configurazione 4 addetti 20%"
+      }},
+    {"name":"Giacenze MPS","alert" : "1"},
+    {"name":"Ingresso previsto","alert" : "2"},
+    {"name":"Selezionatore"},
+    {"name":"Pressa 1"},
+    {"name":"Pressa 2"},
+    {"name":"Selezionatore a terra"},
+    {"name":"Giacenze smaltimento"},
+    {"name":"Giacenze da lavorare 2","alert" : "2"},
+    {"name":"Giacenze MPS 2"},
+    {"name":"Uscita prevista"}
+    ] },
+    "tableFile": "link_to_S3_file_tab1"
+}
