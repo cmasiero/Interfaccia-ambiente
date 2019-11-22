@@ -1445,33 +1445,33 @@
   "graph": {
     "nodes": [
       {
-        "name": "GIACENZA INIZIALE RIFIUTI: ",
+        "name": "nodeA",
         "alert": 0
       },
       {
-        "name": "CONGIUNTA 20.01.01 1A: "
+        "name": "nodeB"
       },
       {
-        "name": "CONGIUNTA 20.01.01 2B: "
+        "name": "nodeC"
       },
       {
-        "name": "SELETTIVA 15.01.01 1A: "
+        "name": "nodeD"
       }
     ],
     "links": [
       {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "CONGIUNTA 20.01.01 1A: ",
+        "source": "nodeA",
+        "target": "nodeB",
         "tons": 98.1
       },
       {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "CONGIUNTA 20.01.01 2B: ",
+        "source": "nodeA",
+        "target": "nodeC",
         "tons": 0
       },
       {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "SELETTIVA 15.01.01 1A: ",
+        "source": "nodeA",
+        "target": "nodeD",
         "tons": 0
       }
     ]
