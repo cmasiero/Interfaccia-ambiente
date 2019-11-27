@@ -108,20 +108,34 @@
         ]
       },
       {
-        "name": "nodeB"
-      },
-      {
-        "name": "nodeC"
-      },
-      {
-        "name": "nodeD",
-        "subnode-input": [
-          {"name": "subnodeA"},
-          {"name": "subnodeB"},
-          {"name": "subnodeC"},
-          {"name": "subnodeD"},
-          {"name": "subnodeE"}
+        "name": "RIFIUTI IN INGRESSO: ",
+        "subnode-output": [
+          {"name": "ALTRI RIFIUTI: "},
+          {"name": "CONGIUNTA 20.01.01 1A: "},
+          {"name": "CONGIUNTA 20.01.01 2B: "},
+          {"name": "SELETTIVA 15.01.01 1A: "},
+          {"name": "SELETTIVA 15.01.01 2B: "},
+          {"name": "CARTONE KSK: "},
+          {"name": "CARTONE 100: "}
         ]
+      },
+      {
+        "name": "RIFIUTI IN USCITA: "
+      },
+      {
+        "name": "RIFIUTI NON LAVORATI: "
+      },
+      {
+        "name": "RIFIUTI DA PRESSARE: "
+      },
+      {
+        "name": "LINEA DECARTONATORE: "
+      },
+      {
+        "name": "DISCARICA: "
+      },
+      {
+        "name": "ALTRI RIFIUTI PRESSATI: "
       }
     ],
     "links": [

@@ -1,3 +1,9 @@
+/**
+ * JSON file converter:
+ * From example json file: specifiche_interfacce.zip\interfaccia_ambiente\20191022_interfaccia_ambiente\tab1_response.json
+ * to new remodeled file for real application 'tab1_response_real.json'
+ */
+
 var fs = require('fs');
 var path = require('path');
 
