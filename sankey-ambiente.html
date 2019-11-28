@@ -30,6 +30,7 @@
 
     <script src="https://d3js.org/d3.v3.js"></script>
     <script src="lib/sankey.js"></script>
+    <script src="lib/adapter-tab1.js"></script>
     <script>
 
       var units = "Widgets";
@@ -59,8 +60,13 @@
       var path = sankey.link();
 
       // load the data
-      d3.json("http://192.168.56.1:8080/data/tab1_response_adapted_test.json", function (error, g) {
+      //d3.json("http://192.168.56.1:8080/data/tab1_response_real.json", function (error, g) {
+        d3.json("http://192.168.56.1:8080/test/data/out/tab1_response_real_adapted.json", function (error, g) {
 
+        // var adp = adapterTab1(JSON.parse(g)).execute();
+        // var adp = adapterTab1(g).execute();
+        // console.log({adp});
+        // var graph = adp.jsonTab1.graph;
 
         var graph = g.graph;
 
@@ -117,7 +123,8 @@
         // add the rectangles for the nodes
         node.append("rect")
           .attr("height", function (d) { 
-            return d.dy / 2; 
+            return d.dy; 
+            //return d.dy / 2; 
           })
           .attr("width", sankey.nodeWidth())
           .style("fill", function (d) {
@@ -130,23 +137,23 @@
             return d.name + "\n" + format(d.value);
           });
 
-          // DELETE ME test: other rectangle 
-        node.append("rect")
-          .attr('y', +12)
-          .attr("height", function (d) { 
-            return d.dy / 2; 
-          })
-          .attr("width", sankey.nodeWidth())
-          .style("fill", function (d) {
-            return d.color = "red";
-          })
-          .style("stroke", function (d) {
-            return d3.rgb(d.color).darker(2);
-          })
-          .append("title")
-          .text(function (d) {
-            return "aggiunto";
-          });
+        // DELETE ME test: other rectangle 
+        // node.append("rect")
+        //   .attr('y', +12)
+        //   .attr("height", function (d) { 
+        //     return d.dy / 2; 
+        //   })
+        //   .attr("width", sankey.nodeWidth())
+        //   .style("fill", function (d) {
+        //     return d.color = "red";
+        //   })
+        //   .style("stroke", function (d) {
+        //     return d3.rgb(d.color).darker(2);
+        //   })
+        //   .append("title")
+        //   .text(function (d) {
+        //     return "aggiunto";
+        //   });
 
           
 
