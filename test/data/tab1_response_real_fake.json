@@ -1445,84 +1445,38 @@
   "graph": {
     "nodes": [
       {
-        "name": "GIACENZA INIZIALE RIFIUTI: ",
-        "alert": 0,
-        "subnode_output": [
-          {
-            "name": "CONGIUNTA 20.01.01 1A: "
-          },
-          {
-            "name": "CONGIUNTA 20.01.01 2B: "
-          },
-          {
-            "name": "SELETTIVA 15.01.01 1A: "
-          },
-          {
-            "name": "SELETTIVA 15.01.01 2B: "
-          },
-          {
-            "name": "CARTONE KSK: "
-          },
-          {
-            "name": "CARTONE 100: "
-          },
-          {
-            "name": "ALTRI RIFIUTI: "
-          }
-        ]
+        "name": "NODE_01",
+        "alert": 0
       },
       {
-        "name": "RIFIUTI IN INGRESSO: ",
-        "subnode_output": [
-          {
-            "name": "CONGIUNTA 20.01.01 1A: "
-          },
-          {
-            "name": "CONGIUNTA 20.01.01 2B: "
-          },
-          {
-            "name": "SELETTIVA 15.01.01 1A: "
-          },
-          {
-            "name": "SELETTIVA 15.01.01 2B: "
-          },
-          {
-            "name": "CARTONE KSK: "
-          },
-          {
-            "name": "CARTONE 100: "
-          },
-          {
-            "name": "ALTRI RIFIUTI: "
-          }
-        ]
+        "name": "NODE_02"
       },
       {
-        "name": "GIACENZA INIZIALE MPS: ",
-        "alert": 1,
-        "subnode_output": [
-          {
-            "name": "1.02 GIACENZA INIZIALE: "
-          },
-          {
-            "name": "1.05 GIACENZA INIZIALE: "
-          },
-          {
-            "name": "1.11 GIACENZA INIZIALE: "
-          },
-          {
-            "name": "SOFTMIX GIACENZA INIZIALE: "
-          },
-          {
-            "name": "CARTONE KSK GIACENZA INIZIALE: "
-          }
-        ]
+        "name": "NODE_03"
       },
       {
-        "name": "LINEA DECARTONATORE: "
+        "name": "NODE_04"
       },
       {
-        "name": "LINEA SELEZIONE: ",
+        "name": "NODE_05"
+      },
+      {
+        "name": "NODE_06"
+      },
+      {
+        "name": "NODE_07"
+      },
+      {
+        "name": "NODE_08"
+      },
+      {
+        "name": "NODE_09"
+      },
+      {
+        "name": "NODE_10"
+      },
+      {
+        "name": "NODE_11",
         "setup": {
           "0": "share di configurazione 0 addetti 0%",
           "1": "share di configurazione 1 addetti 80%",
@@ -1530,106 +1484,567 @@
         }
       },
       {
-        "name": "LINEA PRESSATURA: "
+        "name": "NODE_12"
       },
       {
-        "name": "1.02 LAVORATA: "
+        "name": "NODE_13"
       },
       {
-        "name": "1.05 LAVORATO: "
+        "name": "NODE_14",
+        "alert": 0
       },
       {
-        "name": "1.11 LAVORATO: "
+        "name": "NODE_15"
       },
       {
-        "name": "SOFTMIX LAVORATO: "
+        "name": "NODE_16"
       },
       {
-        "name": "MPS IN USCITA: "
+        "name": "NODE_17"
       },
       {
-        "name": "OPZIONE SELEZIONE 1: "
+        "name": "NODE_18"
       },
       {
-        "name": "RIFIUTI DA PRESSARE: "
+        "name": "NODE_19"
       },
       {
-        "name": "MPS PRESSATI: "
+        "name": "NODE_20"
       },
       {
-        "name": "GIACENZA FINALE RIFIUTI: ",
-        "alert": 0,
-        "subnode_input": [
-          {
-            "name": "SCARTI SELEZIONE: "
-          },
-          {
-            "name": "ALTRI RIFIUTI PRESSATI: "
-          },
-          {
-            "name": "RIFIUTI NON LAVORATI: "
-          }
-        ]
+        "name": "NODE_21"
       },
       {
-        "name": "GIACENZA FINALE MPS: ",
-        "alert": 2,
-        "subnode_input": [
-          {
-            "name": "1.02 PRESSATA: "
-          },
-          {
-            "name": "1.05 PRESSATO: "
-          },
-          {
-            "name": "1.11 PRESSATO: "
-          },
-          {
-            "name": "SOFTMIX PRESSATO: "
-          },
-          {
-            "name": "CARTONE KSK PRESSATO: "
-          }
-        ]
+        "name": "NODE_22"
       },
       {
-        "name": "DISCARICA: ",
-        "subnode_input": [
-          {
-            "name": "RIFIUTI IN USCITA: "
-          }
-        ]
+        "name": "NODE_23"
       },
       {
-        "name": "LIBERO MERCATO: ",
-        "subnode_input": [
-          {
-            "name": "1.02 LIBERO MERCATO: "
-          },
-          {
-            "name": "1.05 LIBERO MERCATO: "
-          },
-          {
-            "name": "1.11 LIBERO MERCATO: "
-          },
-          {
-            "name": "SOFTMIX LIBERO MERCATO: "
-          },
-          {
-            "name": "CARTONE KSK LIBERO MERCATO: "
-          }
-        ]
+        "name": "NODE_24"
       },
       {
-        "name": "CARTIERA CONTO COMIECO: ",
-        "subnode_input": [
-          {
-            "name": "1.05 CONTO COMIECO: "
-          },
-          {
-            "name": "1.02 CONTO COMIECO: "
-          }
-        ]
+        "name": "NODE_25"
+      },
+      {
+        "name": "NODE_26",
+        "alert": 1
+      },
+      {
+        "name": "NODE_27",
+        "alert": 2
+      },
+      {
+        "name": "NODE_28"
+      },
+      {
+        "name": "NODE_29"
+      },
+      {
+        "name": "NODE_30"
+      },
+      {
+        "name": "NODE_31"
+      },
+      {
+        "name": "NODE_32"
+      },
+      {
+        "name": "NODE_33"
+      },
+      {
+        "name": "NODE_34"
+      },
+      {
+        "name": "NODE_35"
+      },
+      {
+        "name": "NODE_36"
+      },
+      {
+        "name": "NODE_37"
+      },
+      {
+        "name": "NODE_38"
+      },
+      {
+        "name": "NODE_39"
+      },
+      {
+        "name": "NODE_40"
+      },
+      {
+        "name": "NODE_41"
+      },
+      {
+        "name": "NODE_42"
+      },
+      {
+        "name": "NODE_43"
+      },
+      {
+        "name": "NODE_44"
+      },
+      {
+        "name": "NODE_45"
+      },
+      {
+        "name": "NODE_46"
+      },
+      {
+        "name": "NODE_47"
+      }
+    ],
+    "links": [
+      {
+        "source": "NODE_01",
+        "target": "NODE_03",
+        "tons": 98.1
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_04",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_05",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_06",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_07",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_08",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_09",
+        "tons": 233.7
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_03",
+        "tons": 53.82
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_04",
+        "tons": 63.22
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_05",
+        "tons": 4.22
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_06",
+        "tons": 35.67
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_07",
+        "tons": 0
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_08",
+        "tons": 0
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_09",
+        "tons": 49.3
+      },
+      {
+        "source": "NODE_03",
+        "target": "NODE_10",
+        "tons": 151.9
+      },
+      {
+        "source": "NODE_10",
+        "target": "NODE_39",
+        "tons": 51.65
+      },
+      {
+        "source": "NODE_39",
+        "target": "NODE_12",
+        "tons": 51.65
+      },
+      {
+        "source": "NODE_10",
+        "target": "NODE_11",
+        "tons": 100.25
+      },
+      {
+        "source": "NODE_11",
+        "target": "NODE_15",
+        "tons": 46.5
+      },
+      {
+        "source": "NODE_11",
+        "target": "NODE_16",
+        "tons": 23.75
+      },
+      {
+        "source": "NODE_11",
+        "target": "NODE_17",
+        "tons": 0
+      },
+      {
+        "source": "NODE_11",
+        "target": "NODE_18",
+        "tons": 30
+      },
+      {
+        "source": "NODE_15",
+        "target": "NODE_12",
+        "tons": 46.5
+      },
+      {
+        "source": "NODE_16",
+        "target": "NODE_12",
+        "tons": 23.75
+      },
+      {
+        "source": "NODE_17",
+        "target": "NODE_12",
+        "tons": 0
+      },
+      {
+        "source": "NODE_18",
+        "target": "NODE_12",
+        "tons": 30
+      },
+      {
+        "source": "NODE_04",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_05",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_06",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_07",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_08",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_09",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_40",
+        "target": "NODE_12",
+        "tons": 0
+      },
+      {
+        "source": "NODE_09",
+        "target": "NODE_13",
+        "tons": 65.73
+      },
+      {
+        "source": "NODE_11",
+        "target": "NODE_19",
+        "tons": 0
+      },
+      {
+        "source": "NODE_19",
+        "target": "NODE_13",
+        "tons": 0
+      },
+      {
+        "source": "NODE_03",
+        "target": "NODE_41",
+        "tons": 0
+      },
+      {
+        "source": "NODE_04",
+        "target": "NODE_41",
+        "tons": 63.22
+      },
+      {
+        "source": "NODE_05",
+        "target": "NODE_41",
+        "tons": 4.22
+      },
+      {
+        "source": "NODE_06",
+        "target": "NODE_41",
+        "tons": 35.67
+      },
+      {
+        "source": "NODE_07",
+        "target": "NODE_41",
+        "tons": 0
+      },
+      {
+        "source": "NODE_08",
+        "target": "NODE_41",
+        "tons": 0
+      },
+      {
+        "source": "NODE_09",
+        "target": "NODE_41",
+        "tons": 217.46
+      },
+      {
+        "source": "NODE_41",
+        "target": "NODE_14",
+        "tons": 320.57
+      },
+      {
+        "source": "NODE_41",
+        "target": "NODE_13",
+        "tons": 0
+      },
+      {
+        "source": "NODE_24",
+        "target": "NODE_14",
+        "tons": 0
+      },
+      {
+        "source": "NODE_19",
+        "target": "NODE_14",
+        "tons": 0
+      },
+      {
+        "source": "NODE_12",
+        "target": "NODE_42",
+        "tons": 152
+      },
+      {
+        "source": "NODE_42",
+        "target": "NODE_20",
+        "tons": 1042.5
+      },
+      {
+        "source": "NODE_42",
+        "target": "NODE_21",
+        "tons": 262.38
+      },
+      {
+        "source": "NODE_42",
+        "target": "NODE_22",
+        "tons": 24
+      },
+      {
+        "source": "NODE_42",
+        "target": "NODE_23",
+        "tons": 234
+      },
+      {
+        "source": "NODE_42",
+        "target": "NODE_25",
+        "tons": 43.9
+      },
+      {
+        "source": "NODE_12",
+        "target": "NODE_24",
+        "tons": 0
+      },
+      {
+        "source": "NODE_24",
+        "target": "NODE_13",
+        "tons": 0
+      },
+      {
+        "source": "NODE_26",
+        "target": "NODE_43",
+        "tons": 993
+      },
+      {
+        "source": "NODE_26",
+        "target": "NODE_44",
+        "tons": 179.8
+      },
+      {
+        "source": "NODE_26",
+        "target": "NODE_45",
+        "tons": 24
+      },
+      {
+        "source": "NODE_26",
+        "target": "NODE_46",
+        "tons": 204
+      },
+      {
+        "source": "NODE_26",
+        "target": "NODE_47",
+        "tons": 44.95
+      },
+      {
+        "source": "NODE_43",
+        "target": "NODE_42",
+        "tons": 993
+      },
+      {
+        "source": "NODE_44",
+        "target": "NODE_42",
+        "tons": 179.8
+      },
+      {
+        "source": "NODE_45",
+        "target": "NODE_42",
+        "tons": 24
+      },
+      {
+        "source": "NODE_46",
+        "target": "NODE_42",
+        "tons": 204
+      },
+      {
+        "source": "NODE_47",
+        "target": "NODE_42",
+        "tons": 44.95
+      },
+      {
+        "source": "NODE_20",
+        "target": "NODE_27",
+        "tons": 952.5
+      },
+      {
+        "source": "NODE_21",
+        "target": "NODE_27",
+        "tons": 145
+      },
+      {
+        "source": "NODE_22",
+        "target": "NODE_27",
+        "tons": 24
+      },
+      {
+        "source": "NODE_23",
+        "target": "NODE_27",
+        "tons": 234
+      },
+      {
+        "source": "NODE_25",
+        "target": "NODE_27",
+        "tons": 14.5
+      },
+      {
+        "source": "NODE_20",
+        "target": "NODE_28",
+        "tons": 90
+      },
+      {
+        "source": "NODE_21",
+        "target": "NODE_28",
+        "tons": 117.38
+      },
+      {
+        "source": "NODE_22",
+        "target": "NODE_28",
+        "tons": 0
+      },
+      {
+        "source": "NODE_23",
+        "target": "NODE_28",
+        "tons": 0
+      },
+      {
+        "source": "NODE_25",
+        "target": "NODE_28",
+        "tons": 29.4
+      },
+      {
+        "source": "NODE_13",
+        "target": "NODE_29",
+        "tons": 65.73
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_32",
+        "tons": 117.38
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_33",
+        "tons": 0
+      },
+      {
+        "source": "NODE_32",
+        "target": "NODE_31",
+        "tons": 117.38
+      },
+      {
+        "source": "NODE_33",
+        "target": "NODE_31",
+        "tons": 0
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_34",
+        "tons": 90
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_35",
+        "tons": 0
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_36",
+        "tons": 0
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_37",
+        "tons": 0
+      },
+      {
+        "source": "NODE_28",
+        "target": "NODE_38",
+        "tons": 29.4
+      },
+      {
+        "source": "NODE_34",
+        "target": "NODE_30",
+        "tons": 90
+      },
+      {
+        "source": "NODE_35",
+        "target": "NODE_30",
+        "tons": 0
+      },
+      {
+        "source": "NODE_36",
+        "target": "NODE_30",
+        "tons": 0
+      },
+      {
+        "source": "NODE_37",
+        "target": "NODE_30",
+        "tons": 0
+      },
+      {
+        "source": "NODE_38",
+        "target": "NODE_30",
+        "tons": 29.4
       }
     ]
   }

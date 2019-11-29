@@ -1445,84 +1445,84 @@
   "graph": {
     "nodes": [
       {
-        "name": "GIACENZA INIZIALE RIFIUTI: ",
+        "name": "NODE_01",
         "alert": 0,
         "subnode_output": [
           {
-            "name": "CONGIUNTA 20.01.01 1A: "
+            "name": "NODE_03"
           },
           {
-            "name": "CONGIUNTA 20.01.01 2B: "
+            "name": "NODE_04"
           },
           {
-            "name": "SELETTIVA 15.01.01 1A: "
+            "name": "NODE_05"
           },
           {
-            "name": "SELETTIVA 15.01.01 2B: "
+            "name": "NODE_06"
           },
           {
-            "name": "CARTONE KSK: "
+            "name": "NODE_07"
           },
           {
-            "name": "CARTONE 100: "
+            "name": "NODE_08"
           },
           {
-            "name": "ALTRI RIFIUTI: "
+            "name": "NODE_09"
           }
         ]
       },
       {
-        "name": "RIFIUTI IN INGRESSO: ",
+        "name": "NODE_02",
         "subnode_output": [
           {
-            "name": "CONGIUNTA 20.01.01 1A: "
+            "name": "NODE_03"
           },
           {
-            "name": "CONGIUNTA 20.01.01 2B: "
+            "name": "NODE_04"
           },
           {
-            "name": "SELETTIVA 15.01.01 1A: "
+            "name": "NODE_05"
           },
           {
-            "name": "SELETTIVA 15.01.01 2B: "
+            "name": "NODE_06"
           },
           {
-            "name": "CARTONE KSK: "
+            "name": "NODE_07"
           },
           {
-            "name": "CARTONE 100: "
+            "name": "NODE_08"
           },
           {
-            "name": "ALTRI RIFIUTI: "
+            "name": "NODE_09"
           }
         ]
       },
       {
-        "name": "GIACENZA INIZIALE MPS: ",
+        "name": "NODE_26",
         "alert": 1,
         "subnode_output": [
           {
-            "name": "1.02 GIACENZA INIZIALE: "
+            "name": "NODE_43"
           },
           {
-            "name": "1.05 GIACENZA INIZIALE: "
+            "name": "NODE_44"
           },
           {
-            "name": "1.11 GIACENZA INIZIALE: "
+            "name": "NODE_45"
           },
           {
-            "name": "SOFTMIX GIACENZA INIZIALE: "
+            "name": "NODE_46"
           },
           {
-            "name": "CARTONE KSK GIACENZA INIZIALE: "
+            "name": "NODE_47"
           }
         ]
       },
       {
-        "name": "LINEA DECARTONATORE: "
+        "name": "NODE_10"
       },
       {
-        "name": "LINEA SELEZIONE: ",
+        "name": "NODE_11",
         "setup": {
           "0": "share di configurazione 0 addetti 0%",
           "1": "share di configurazione 1 addetti 80%",
@@ -1530,533 +1530,383 @@
         }
       },
       {
-        "name": "LINEA PRESSATURA: "
+        "name": "NODE_12"
       },
       {
-        "name": "1.02 LAVORATA: "
+        "name": "NODE_15"
       },
       {
-        "name": "1.05 LAVORATO: "
+        "name": "NODE_16"
       },
       {
-        "name": "1.11 LAVORATO: "
+        "name": "NODE_17"
       },
       {
-        "name": "SOFTMIX LAVORATO: "
+        "name": "NODE_18"
       },
       {
-        "name": "MPS IN USCITA: "
+        "name": "NODE_28"
       },
       {
-        "name": "OPZIONE SELEZIONE 1: "
+        "name": "NODE_39"
       },
       {
-        "name": "RIFIUTI DA PRESSARE: "
+        "name": "NODE_40"
       },
       {
-        "name": "MPS PRESSATI: "
+        "name": "NODE_42"
       },
       {
-        "name": "GIACENZA FINALE RIFIUTI: ",
+        "name": "NODE_14",
         "alert": 0,
         "subnode_input": [
           {
-            "name": "SCARTI SELEZIONE: "
+            "name": "NODE_19"
           },
           {
-            "name": "ALTRI RIFIUTI PRESSATI: "
+            "name": "NODE_24"
           },
           {
-            "name": "RIFIUTI NON LAVORATI: "
+            "name": "NODE_41"
           }
         ]
       },
       {
-        "name": "GIACENZA FINALE MPS: ",
+        "name": "NODE_27",
         "alert": 2,
         "subnode_input": [
           {
-            "name": "1.02 PRESSATA: "
+            "name": "NODE_20"
           },
           {
-            "name": "1.05 PRESSATO: "
+            "name": "NODE_21"
           },
           {
-            "name": "1.11 PRESSATO: "
+            "name": "NODE_22"
           },
           {
-            "name": "SOFTMIX PRESSATO: "
+            "name": "NODE_23"
           },
           {
-            "name": "CARTONE KSK PRESSATO: "
+            "name": "NODE_25"
           }
         ]
       },
       {
-        "name": "DISCARICA: ",
+        "name": "NODE_29",
         "subnode_input": [
           {
-            "name": "RIFIUTI IN USCITA: "
+            "name": "NODE_13"
           }
         ]
       },
       {
-        "name": "LIBERO MERCATO: ",
+        "name": "NODE_30",
         "subnode_input": [
           {
-            "name": "1.02 LIBERO MERCATO: "
+            "name": "NODE_34"
           },
           {
-            "name": "1.05 LIBERO MERCATO: "
+            "name": "NODE_35"
           },
           {
-            "name": "1.11 LIBERO MERCATO: "
+            "name": "NODE_36"
           },
           {
-            "name": "SOFTMIX LIBERO MERCATO: "
+            "name": "NODE_37"
           },
           {
-            "name": "CARTONE KSK LIBERO MERCATO: "
+            "name": "NODE_38"
           }
         ]
       },
       {
-        "name": "CARTIERA CONTO COMIECO: ",
+        "name": "NODE_31",
         "subnode_input": [
           {
-            "name": "1.05 CONTO COMIECO: "
+            "name": "NODE_32"
           },
           {
-            "name": "1.02 CONTO COMIECO: "
+            "name": "NODE_33"
           }
         ]
       }
     ],
     "links": [
       {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "LINEA DECARTONATORE: ",
-        "tons": 151.9,
-        "source_subnode": "CONGIUNTA 20.01.01 1A: "
+        "source": "NODE_01",
+        "target": "NODE_10",
+        "tons": 151.9
       },
       {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 0,
-        "source_subnode": "CONGIUNTA 20.01.01 1A: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "CONGIUNTA 20.01.01 2B: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 63.22,
-        "source_subnode": "CONGIUNTA 20.01.01 2B: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "SELETTIVA 15.01.01 1A: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 4.22,
-        "source_subnode": "SELETTIVA 15.01.01 1A: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "SELETTIVA 15.01.01 2B: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 35.67,
-        "source_subnode": "SELETTIVA 15.01.01 2B: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "CARTONE KSK: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 0,
-        "source_subnode": "CARTONE KSK: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "CARTONE 100: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 0,
-        "source_subnode": "CARTONE 100: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "ALTRI RIFIUTI: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI IN USCITA: ",
-        "tons": 65.73,
-        "source_subnode": "ALTRI RIFIUTI: "
-      },
-      {
-        "source": "GIACENZA INIZIALE RIFIUTI: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 217.46,
-        "source_subnode": "ALTRI RIFIUTI: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "LINEA DECARTONATORE: ",
-        "tons": 151.9,
-        "source_subnode": "CONGIUNTA 20.01.01 1A: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 0,
-        "source_subnode": "CONGIUNTA 20.01.01 1A: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "CONGIUNTA 20.01.01 2B: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 63.22,
-        "source_subnode": "CONGIUNTA 20.01.01 2B: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "SELETTIVA 15.01.01 1A: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 4.22,
-        "source_subnode": "SELETTIVA 15.01.01 1A: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "SELETTIVA 15.01.01 2B: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 35.67,
-        "source_subnode": "SELETTIVA 15.01.01 2B: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "CARTONE KSK: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 0,
-        "source_subnode": "CARTONE KSK: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "CARTONE 100: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 0,
-        "source_subnode": "CARTONE 100: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI DA PRESSARE: ",
-        "tons": 0,
-        "source_subnode": "ALTRI RIFIUTI: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI IN USCITA: ",
-        "tons": 65.73,
-        "source_subnode": "ALTRI RIFIUTI: "
-      },
-      {
-        "source": "RIFIUTI IN INGRESSO: ",
-        "target": "RIFIUTI NON LAVORATI: ",
-        "tons": 217.46,
-        "source_subnode": "ALTRI RIFIUTI: "
-      },
-      {
-        "source": "GIACENZA INIZIALE MPS: ",
-        "target": "MPS PRESSATI: ",
-        "tons": 993,
-        "source_subnode": "1.02 GIACENZA INIZIALE: "
-      },
-      {
-        "source": "GIACENZA INIZIALE MPS: ",
-        "target": "MPS PRESSATI: ",
-        "tons": 179.8,
-        "source_subnode": "1.05 GIACENZA INIZIALE: "
-      },
-      {
-        "source": "GIACENZA INIZIALE MPS: ",
-        "target": "MPS PRESSATI: ",
-        "tons": 24,
-        "source_subnode": "1.11 GIACENZA INIZIALE: "
-      },
-      {
-        "source": "GIACENZA INIZIALE MPS: ",
-        "target": "MPS PRESSATI: ",
-        "tons": 204,
-        "source_subnode": "SOFTMIX GIACENZA INIZIALE: "
-      },
-      {
-        "source": "GIACENZA INIZIALE MPS: ",
-        "target": "MPS PRESSATI: ",
-        "tons": 44.95,
-        "source_subnode": "CARTONE KSK GIACENZA INIZIALE: "
-      },
-      {
-        "source": "LINEA DECARTONATORE: ",
-        "target": "OPZIONE SELEZIONE 1: ",
+        "source": "NODE_10",
+        "target": "NODE_39",
         "tons": 51.65
       },
       {
-        "source": "OPZIONE SELEZIONE 1: ",
-        "target": "LINEA PRESSATURA: ",
+        "source": "NODE_39",
+        "target": "NODE_12",
         "tons": 51.65
       },
       {
-        "source": "LINEA DECARTONATORE: ",
-        "target": "LINEA SELEZIONE: ",
+        "source": "NODE_10",
+        "target": "NODE_11",
         "tons": 100.25
       },
       {
-        "source": "LINEA SELEZIONE: ",
-        "target": "1.02 LAVORATA: ",
+        "source": "NODE_11",
+        "target": "NODE_15",
         "tons": 46.5
       },
       {
-        "source": "LINEA SELEZIONE: ",
-        "target": "1.05 LAVORATO: ",
+        "source": "NODE_11",
+        "target": "NODE_16",
         "tons": 23.75
       },
       {
-        "source": "LINEA SELEZIONE: ",
-        "target": "1.11 LAVORATO: ",
+        "source": "NODE_11",
+        "target": "NODE_17",
         "tons": 0
       },
       {
-        "source": "LINEA SELEZIONE: ",
-        "target": "SOFTMIX LAVORATO: ",
+        "source": "NODE_11",
+        "target": "NODE_18",
         "tons": 30
       },
       {
-        "source": "1.02 LAVORATA: ",
-        "target": "LINEA PRESSATURA: ",
+        "source": "NODE_15",
+        "target": "NODE_12",
         "tons": 46.5
       },
       {
-        "source": "1.05 LAVORATO: ",
-        "target": "LINEA PRESSATURA: ",
+        "source": "NODE_16",
+        "target": "NODE_12",
         "tons": 23.75
       },
       {
-        "source": "1.11 LAVORATO: ",
-        "target": "LINEA PRESSATURA: ",
+        "source": "NODE_17",
+        "target": "NODE_12",
         "tons": 0
       },
       {
-        "source": "SOFTMIX LAVORATO: ",
-        "target": "LINEA PRESSATURA: ",
+        "source": "NODE_18",
+        "target": "NODE_12",
         "tons": 30
       },
       {
-        "source": "RIFIUTI DA PRESSARE: ",
-        "target": "LINEA PRESSATURA: ",
+        "source": "NODE_01",
+        "target": "NODE_40",
         "tons": 0
       },
       {
-        "source": "LINEA PRESSATURA: ",
-        "target": "MPS PRESSATI: ",
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_40",
+        "target": "NODE_12",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_13",
+        "tons": 65.73
+      },
+      {
+        "source": "NODE_11",
+        "target": "NODE_19",
+        "tons": 0
+      },
+      {
+        "source": "NODE_19",
+        "target": "NODE_13",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 63.22
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 4.22
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 35.67
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_41",
+        "tons": 217.46
+      },
+      {
+        "source": "NODE_41",
+        "target": "NODE_13",
+        "tons": 0
+      },
+      {
+        "source": "NODE_12",
+        "target": "NODE_42",
         "tons": 152
       },
       {
-        "source": "LINEA SELEZIONE: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 0,
-        "target_subnode": "SCARTI SELEZIONE: "
+        "source": "NODE_42",
+        "target": "NODE_20",
+        "tons": 1042.5
       },
       {
-        "source": "LINEA PRESSATURA: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 0,
-        "target_subnode": "ALTRI RIFIUTI PRESSATI: "
+        "source": "NODE_42",
+        "target": "NODE_21",
+        "tons": 262.38
       },
       {
-        "source": "CONGIUNTA 20.01.01 1A: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 0,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_42",
+        "target": "NODE_22",
+        "tons": 24
       },
       {
-        "source": "CONGIUNTA 20.01.01 2B: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 63.22,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_42",
+        "target": "NODE_23",
+        "tons": 234
       },
       {
-        "source": "SELETTIVA 15.01.01 1A: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 4.22,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_42",
+        "target": "NODE_25",
+        "tons": 43.9
       },
       {
-        "source": "SELETTIVA 15.01.01 2B: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 35.67,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_12",
+        "target": "NODE_24",
+        "tons": 0
       },
       {
-        "source": "CARTONE KSK: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 0,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_24",
+        "target": "NODE_13",
+        "tons": 0
       },
       {
-        "source": "CARTONE 100: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 0,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_26",
+        "target": "NODE_42",
+        "tons": 993
       },
       {
-        "source": "ALTRI RIFIUTI: ",
-        "target": "GIACENZA FINALE RIFIUTI: ",
-        "tons": 217.46,
-        "target_subnode": "RIFIUTI NON LAVORATI: "
+        "source": "NODE_26",
+        "target": "NODE_42",
+        "tons": 179.8
       },
       {
-        "source": "MPS PRESSATI: ",
-        "target": "GIACENZA FINALE MPS: ",
-        "tons": 1042.5,
-        "target_subnode": "1.02 PRESSATA: "
+        "source": "NODE_26",
+        "target": "NODE_42",
+        "tons": 24
       },
       {
-        "source": "MPS PRESSATI: ",
-        "target": "GIACENZA FINALE MPS: ",
-        "tons": 262.38,
-        "target_subnode": "1.05 PRESSATO: "
+        "source": "NODE_26",
+        "target": "NODE_42",
+        "tons": 204
       },
       {
-        "source": "MPS PRESSATI: ",
-        "target": "GIACENZA FINALE MPS: ",
-        "tons": 24,
-        "target_subnode": "1.11 PRESSATO: "
+        "source": "NODE_26",
+        "target": "NODE_42",
+        "tons": 44.95
       },
       {
-        "source": "MPS PRESSATI: ",
-        "target": "GIACENZA FINALE MPS: ",
-        "tons": 234,
-        "target_subnode": "SOFTMIX PRESSATO: "
+        "source": "NODE_20",
+        "target": "NODE_28",
+        "tons": 90
       },
       {
-        "source": "MPS PRESSATI: ",
-        "target": "GIACENZA FINALE MPS: ",
-        "tons": 43.9,
-        "target_subnode": "CARTONE KSK PRESSATO: "
+        "source": "NODE_21",
+        "target": "NODE_28",
+        "tons": 117.38
       },
       {
-        "source": "ALTRI RIFIUTI: ",
-        "target": "DISCARICA: ",
-        "tons": 65.73,
-        "target_subnode": "RIFIUTI IN USCITA: "
+        "source": "NODE_22",
+        "target": "NODE_28",
+        "tons": 0
       },
       {
-        "source": "SCARTI SELEZIONE: ",
-        "target": "DISCARICA: ",
-        "tons": 0,
-        "target_subnode": "RIFIUTI IN USCITA: "
+        "source": "NODE_23",
+        "target": "NODE_28",
+        "tons": 0
       },
       {
-        "source": "RIFIUTI NON LAVORATI: ",
-        "target": "DISCARICA: ",
-        "tons": 0,
-        "target_subnode": "RIFIUTI IN USCITA: "
+        "source": "NODE_25",
+        "target": "NODE_28",
+        "tons": 29.4
       },
       {
-        "source": "ALTRI RIFIUTI PRESSATI: ",
-        "target": "DISCARICA: ",
-        "tons": 0,
-        "target_subnode": "RIFIUTI IN USCITA: "
+        "source": "NODE_28",
+        "target": "NODE_32",
+        "tons": 117.38
       },
       {
-        "source": "MPS IN USCITA: ",
-        "target": "LIBERO MERCATO: ",
-        "tons": 90,
-        "target_subnode": "1.02 LIBERO MERCATO: "
+        "source": "NODE_28",
+        "target": "NODE_33",
+        "tons": 0
       },
       {
-        "source": "MPS IN USCITA: ",
-        "target": "LIBERO MERCATO: ",
-        "tons": 0,
-        "target_subnode": "1.05 LIBERO MERCATO: "
+        "source": "NODE_28",
+        "target": "NODE_34",
+        "tons": 90
       },
       {
-        "source": "MPS IN USCITA: ",
-        "target": "LIBERO MERCATO: ",
-        "tons": 0,
-        "target_subnode": "1.11 LIBERO MERCATO: "
+        "source": "NODE_28",
+        "target": "NODE_35",
+        "tons": 0
       },
       {
-        "source": "MPS IN USCITA: ",
-        "target": "LIBERO MERCATO: ",
-        "tons": 0,
-        "target_subnode": "SOFTMIX LIBERO MERCATO: "
+        "source": "NODE_28",
+        "target": "NODE_36",
+        "tons": 0
       },
       {
-        "source": "MPS IN USCITA: ",
-        "target": "LIBERO MERCATO: ",
-        "tons": 29.4,
-        "target_subnode": "CARTONE KSK LIBERO MERCATO: "
+        "source": "NODE_28",
+        "target": "NODE_37",
+        "tons": 0
       },
       {
-        "source": "MPS IN USCITA: ",
-        "target": "CARTIERA CONTO COMIECO: ",
-        "tons": 117.38,
-        "target_subnode": "1.05 CONTO COMIECO: "
-      },
-      {
-        "source": "MPS IN USCITA: ",
-        "target": "CARTIERA CONTO COMIECO: ",
-        "tons": 0,
-        "target_subnode": "1.02 CONTO COMIECO: "
+        "source": "NODE_28",
+        "target": "NODE_38",
+        "tons": 29.4
       }
     ]
   }
