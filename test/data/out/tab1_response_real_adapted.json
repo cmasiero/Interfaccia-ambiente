@@ -1447,7 +1447,7 @@
       {
         "name": "NODE_01",
         "alert": 0,
-        "subnode_output": [
+        "subnode_target": [
           {
             "name": "NODE_03"
           },
@@ -1473,7 +1473,7 @@
       },
       {
         "name": "NODE_02",
-        "subnode_output": [
+        "subnode_target": [
           {
             "name": "NODE_03"
           },
@@ -1500,7 +1500,7 @@
       {
         "name": "NODE_26",
         "alert": 1,
-        "subnode_output": [
+        "subnode_target": [
           {
             "name": "NODE_43"
           },
@@ -1559,7 +1559,7 @@
       {
         "name": "NODE_14",
         "alert": 0,
-        "subnode_input": [
+        "subnode_source": [
           {
             "name": "NODE_19"
           },
@@ -1574,7 +1574,7 @@
       {
         "name": "NODE_27",
         "alert": 2,
-        "subnode_input": [
+        "subnode_source": [
           {
             "name": "NODE_20"
           },
@@ -1594,7 +1594,7 @@
       },
       {
         "name": "NODE_29",
-        "subnode_input": [
+        "subnode_source": [
           {
             "name": "NODE_13"
           }
@@ -1602,7 +1602,7 @@
       },
       {
         "name": "NODE_30",
-        "subnode_input": [
+        "subnode_source": [
           {
             "name": "NODE_34"
           },
@@ -1622,7 +1622,7 @@
       },
       {
         "name": "NODE_31",
-        "subnode_input": [
+        "subnode_source": [
           {
             "name": "NODE_32"
           },
@@ -1635,6 +1635,11 @@
     "links": [
       {
         "source": "NODE_01",
+        "target": "NODE_10",
+        "tons": 151.9
+      },
+      {
+        "source": "NODE_02",
         "target": "NODE_10",
         "tons": 151.9
       },
@@ -1699,7 +1704,7 @@
         "tons": 0
       },
       {
-        "source": "NODE_01",
+        "source": "NODE_02",
         "target": "NODE_40",
         "tons": 0
       },
@@ -1709,7 +1714,7 @@
         "tons": 0
       },
       {
-        "source": "NODE_01",
+        "source": "NODE_02",
         "target": "NODE_40",
         "tons": 0
       },
@@ -1719,7 +1724,37 @@
         "tons": 0
       },
       {
+        "source": "NODE_02",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
         "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_02",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_01",
+        "target": "NODE_40",
+        "tons": 0
+      },
+      {
+        "source": "NODE_02",
         "target": "NODE_40",
         "tons": 0
       },
@@ -1729,58 +1764,58 @@
         "tons": 0
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_13",
+        "source": "NODE_02",
+        "target": "NODE_29",
         "tons": 65.73
       },
       {
         "source": "NODE_11",
-        "target": "NODE_19",
+        "target": "NODE_14",
         "tons": 0
       },
       {
-        "source": "NODE_19",
-        "target": "NODE_13",
+        "source": "NODE_14",
+        "target": "NODE_29",
         "tons": 0
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 0
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 63.22
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 4.22
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 35.67
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 0
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 0
       },
       {
-        "source": "NODE_01",
-        "target": "NODE_41",
+        "source": "NODE_02",
+        "target": "NODE_14",
         "tons": 217.46
       },
       {
-        "source": "NODE_41",
-        "target": "NODE_13",
+        "source": "NODE_14",
+        "target": "NODE_29",
         "tons": 0
       },
       {
@@ -1790,37 +1825,37 @@
       },
       {
         "source": "NODE_42",
-        "target": "NODE_20",
+        "target": "NODE_27",
         "tons": 1042.5
       },
       {
         "source": "NODE_42",
-        "target": "NODE_21",
+        "target": "NODE_27",
         "tons": 262.38
       },
       {
         "source": "NODE_42",
-        "target": "NODE_22",
+        "target": "NODE_27",
         "tons": 24
       },
       {
         "source": "NODE_42",
-        "target": "NODE_23",
+        "target": "NODE_27",
         "tons": 234
       },
       {
         "source": "NODE_42",
-        "target": "NODE_25",
+        "target": "NODE_27",
         "tons": 43.9
       },
       {
         "source": "NODE_12",
-        "target": "NODE_24",
+        "target": "NODE_14",
         "tons": 0
       },
       {
-        "source": "NODE_24",
-        "target": "NODE_13",
+        "source": "NODE_14",
+        "target": "NODE_29",
         "tons": 0
       },
       {
@@ -1849,63 +1884,63 @@
         "tons": 44.95
       },
       {
-        "source": "NODE_20",
+        "source": "NODE_27",
         "target": "NODE_28",
         "tons": 90
       },
       {
-        "source": "NODE_21",
+        "source": "NODE_27",
         "target": "NODE_28",
         "tons": 117.38
       },
       {
-        "source": "NODE_22",
+        "source": "NODE_27",
         "target": "NODE_28",
         "tons": 0
       },
       {
-        "source": "NODE_23",
+        "source": "NODE_27",
         "target": "NODE_28",
         "tons": 0
       },
       {
-        "source": "NODE_25",
+        "source": "NODE_27",
         "target": "NODE_28",
         "tons": 29.4
       },
       {
         "source": "NODE_28",
-        "target": "NODE_32",
+        "target": "NODE_31",
         "tons": 117.38
       },
       {
         "source": "NODE_28",
-        "target": "NODE_33",
+        "target": "NODE_31",
         "tons": 0
       },
       {
         "source": "NODE_28",
-        "target": "NODE_34",
+        "target": "NODE_30",
         "tons": 90
       },
       {
         "source": "NODE_28",
-        "target": "NODE_35",
+        "target": "NODE_30",
         "tons": 0
       },
       {
         "source": "NODE_28",
-        "target": "NODE_36",
+        "target": "NODE_30",
         "tons": 0
       },
       {
         "source": "NODE_28",
-        "target": "NODE_37",
+        "target": "NODE_30",
         "tons": 0
       },
       {
         "source": "NODE_28",
-        "target": "NODE_38",
+        "target": "NODE_30",
         "tons": 29.4
       }
     ]

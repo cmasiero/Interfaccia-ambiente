@@ -31,35 +31,26 @@ test('tab1 test', function (t) {
 
         var subnodeOutputCount = 0;
         adp.jsonTab1.graph.nodes.forEach(n => {
-            if (n.subnode_output !== undefined) {
-                subnodeOutputCount += n.subnode_output.length;
+            if (n.subnode_target !== undefined) {
+                subnodeOutputCount += n.subnode_target.length;
             }
         });
 
         var subnodeInputCount = 0;
         adp.jsonTab1.graph.nodes.forEach(n => {
-            if (n.subnode_input !== undefined) {
-                subnodeInputCount += n.subnode_input.length;
+            if (n.subnode_source !== undefined) {
+                subnodeInputCount += n.subnode_source.length;
             }
         });
 
         
-        // var linkSourceSubnode = adp.jsonTab1.graph.links.filter(l => {
-        //     return (l.source_subnode !== undefined);
-        // });
-
-        // var linkTargetSubnode = adp.jsonTab1.graph.links.filter(l => {
-        //     return (l.target_subnode !== undefined);
-        // });
 
 
-        t.plan(3);
+        t.plan(4);
         t.equal(adp.jsonTab1.graph.nodes.length, 19);
         t.equal(subnodeOutputCount, 19);
         t.equal(subnodeInputCount, 16);
-        // t.equal(linkSourceSubnode.length, 35);
-        // t.equal(linkTargetSubnode.length, 25);
-        
+        t.equal(adp.jsonTab1.graph.links.length, 62);
 
 
 
