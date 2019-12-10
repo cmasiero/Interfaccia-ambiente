@@ -13,8 +13,6 @@ eval(fs.readFileSync(basePath + "\\lib\\adapter-tab1.js") + '');
 
 test('tab1 test', function (t) {
 
-
-
     // Get file real
     fs.readFile(fileJsonInput, 'utf8', function (err, fileIn) {
 
